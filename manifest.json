@@ -1,20 +1,24 @@
 {
-  "name": "KP Flux",
-  "short_name": "KPFlux",
-  "start_url": "/",
+  "name": "KP Flux Share",
+  "short_name": "KP Share",
+  "description": "Secure P2P File Sharing Application",
+  "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#000000",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "https://via.placeholder.com/192",
+      "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "https://via.placeholder.com/512",
+      "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
